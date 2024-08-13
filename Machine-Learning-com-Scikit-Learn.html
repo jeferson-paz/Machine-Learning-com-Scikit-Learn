@@ -8543,6 +8543,62 @@ Name: horas_estudo_mes, dtype: float64</pre>
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2339fe2d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Conclus%C3%A3o-da-An%C3%A1lise">Conclusão da Análise<a class="anchor-link" href="#Conclus%C3%A3o-da-An%C3%A1lise">¶</a></h3><ol>
+<li><p><strong>Dados e Preparação</strong>:</p>
+<ul>
+<li><strong>Dados</strong>: O dataset possui 500 amostras, com duas variáveis: <code>horas_estudo_mes</code> e <code>salario</code>. Ambas as variáveis são contínuas e não possuem valores ausentes.</li>
+<li><strong>Correlação</strong>: Há uma correlação positiva moderada (0.82) entre as horas de estudo e o salário, indicando que, geralmente, mais horas de estudo estão associadas a salários mais altos.</li>
+<li><strong>Distribuição</strong>: As variáveis são aproximadamente normais, com o salário e as horas de estudo mostrando variações consistentes.</li>
+</ul>
+</li>
+<li><p><strong>Modelo de Regressão Linear</strong>:</p>
+<ul>
+<li><strong>Criação e Treinamento</strong>: Um modelo de regressão linear simples foi treinado com as horas de estudo como variável preditora e o salário como variável alvo.</li>
+<li><strong>Desempenho do Modelo</strong>: O coeficiente de determinação ( R^2 ) do modelo é 0.59, o que indica que cerca de 59% da variação no salário pode ser explicada pela quantidade de horas estudadas. Isso sugere que o modelo tem uma boa capacidade preditiva, mas ainda há espaço para melhorias, pois 41% da variação não é explicada pelo modelo.</li>
+</ul>
+</li>
+<li><p><strong>Parâmetros do Modelo</strong>:</p>
+<ul>
+<li><strong>Intercepto</strong>: Aproximadamente 3596.78, o que representa o salário estimado quando o tempo de estudo é zero (embora isso possa não ser uma situação realista).</li>
+<li><strong>Inclinação (Slope)</strong>: Aproximadamente 48.18, indicando que, para cada hora adicional de estudo por mês, o salário aumenta em média cerca de R$ 48,18.</li>
+</ul>
+</li>
+<li><p><strong>Previsões</strong>:</p>
+<ul>
+<li>Para 48 horas de estudo por mês, o modelo prevê um salário de aproximadamente R$ 5909,51.</li>
+<li>Para 65 horas de estudo por mês, o salário previsto é de cerca de R$ 6728,60.</li>
+<li>Para 73 horas de estudo por mês, o salário previsto é de aproximadamente R$ 7114,06.</li>
+</ul>
+</li>
+<li><p><strong>Interpretação e Limitações</strong>:</p>
+<ul>
+<li><strong>Interpretação</strong>: O modelo sugere uma relação positiva entre o tempo dedicado aos estudos e o salário, conforme indicado pelos coeficientes e previsões. Em geral, mais horas de estudo estão associadas a um salário mais alto.</li>
+<li><strong>Limitações</strong>: O ( R^2 ) não é perfeito, indicando que há outros fatores além das horas de estudo que afetam o salário. Fatores como experiência, educação formal, localização e setor de trabalho podem influenciar o salário e não estão capturados por este modelo.</li>
+</ul>
+</li>
+</ol>
+<h3 id="Recomenda%C3%A7%C3%A3o">Recomendação<a class="anchor-link" href="#Recomenda%C3%A7%C3%A3o">¶</a></h3><p>Embora o modelo de regressão linear forneça uma boa estimativa da relação entre horas de estudo e salário, é importante considerar que ele é baseado em dados históricos e assume uma relação linear. Para uma análise mais robusta, considerar variáveis adicionais e modelos mais complexos pode ser benéfico. Além disso, sempre é bom validar o modelo com novos dados e ajustar conforme necessário para melhorar a precisão das previsões.</p>
+<p>Se você tem mais variáveis ou dados adicionais que possam influenciar o salário, isso pode levar a um modelo mais completo e preciso.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f4077308">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+</div>
+</div>
+</div>
+</div>
 </main>
 </body>
 </html>
