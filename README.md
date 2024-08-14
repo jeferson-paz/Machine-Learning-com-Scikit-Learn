@@ -29,3 +29,9 @@
 Embora o modelo de regressão linear forneça uma boa estimativa da relação entre horas de estudo e salário, é importante considerar que ele é baseado em dados históricos e assume uma relação linear. Para uma análise mais robusta, considerar variáveis adicionais e modelos mais complexos pode ser benéfico. Além disso, sempre é bom validar o modelo com novos dados e ajustar conforme necessário para melhorar a precisão das previsões.
 
 Se você tem mais variáveis ou dados adicionais que possam influenciar o salário, isso pode levar a um modelo mais completo e preciso.
+
+Feito por: **Jeferson Paz**  
+
+Meu GitHub: [Jeferson Paz](https://github.com/jeferson-paz)  
+
+Projeto criado através do Curso gratuito na Data Science Academy: [Fundamentos de Linguagem Python Para Análise de Dados e Data Science (Com ChatGPT)](https://www.datascienceacademy.com.br)
